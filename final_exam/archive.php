@@ -1,6 +1,6 @@
 <?php
 
-    include "edit_db.php";
+    include "./edit_db.php";
     $conn = getSQL();
     $race_id = $_POST["raceid"];
  
@@ -33,7 +33,7 @@ function checkSet($post){
     
     
     <body>
-        <a href="race.php">Home</a>
+        <a href="./race.php">Home</a>
         <h1>Archive/Delete Race</h1>
         <h3>You will no longer be able to see it on
         <br>the home screen. Enter a Race ID to archive.</h3>

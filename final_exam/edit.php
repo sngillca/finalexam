@@ -1,6 +1,6 @@
 <?php
 
-    include "edit_db.php";
+    include "./edit_db.php";
     $conn = getSQL();
     $race_id = $_POST["raceid"];
     $race_date = $_POST["date"];
@@ -36,7 +36,7 @@ function checkSet($post){
     
     
     <body>
-        <a href="race.php">Home</a>
+        <a href="./race.php">Home</a>
         <h1>Race Details Edit Entry</h1>
         <h3>Enter ID of entry you would like to edit, then fill out the fields,
         <br>and your entry will be edited. You will be able 

@@ -1,6 +1,6 @@
 <?php
 
-    include "edit_db.php";
+    include "./edit_db.php";
     $conn = getSQL();
     $race_id = $_POST["raceid"];
     $race_date = $_POST["date"];
@@ -36,7 +36,7 @@ function checkSet($post){
     
     
     <body>
-        <a href="race.php">Home</a>
+        <a href="./race.php">Home</a>
         <h1>Race Details ADD a New Entry</h1>
         <h3>You will be able to see the changes on the Home screen.</h3>
         <form method="post">
